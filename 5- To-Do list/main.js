@@ -12,7 +12,7 @@ function toggleDeleteAllButton() {
   }
 }
 
-toggleDeleteAllButton();
+toggleDeleteAllButton(); // Actualizar el estado del botón
 
 // Agregar un evento al botón de eliminar todas las tareas
 deleteAllBtn.addEventListener("click", () => {
@@ -33,7 +33,6 @@ addTaskButton.addEventListener("click", () => {
     const li = document.createElement("li");
     li.textContent = taskText;
 
-    //  Crear un boton de eliminar Tarea
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "Eliminar";
     deleteButton.classList.add("delete-button");
@@ -47,7 +46,7 @@ addTaskButton.addEventListener("click", () => {
 
     // Limpiar el campo de entrada
     taskInput.value = "";
-    toggleDeleteAllButton();
+    toggleDeleteAllButton(); // Actualizar el estado del botón
   } else {
     alert("Por favor, ingresa una tarea.");
   }
