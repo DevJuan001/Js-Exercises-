@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 1rem;
+    justify-content: center; 
+    align-items: center;    
+    height: 90vh;                     
+    font-family: 'Cascadia Code', monospace;
+}
+.hexColor {
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    background-color: #00000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.hexColorBtn{
+    width: 100%;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    box-shadow: #333 0px 0px 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
