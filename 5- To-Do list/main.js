@@ -12,6 +12,7 @@ function toggleDeleteAllButton() {
   }
 }
 
+// toggle = alternar (sirve para mostrar u ocultar el boton de eliminar todas las tareas)
 toggleDeleteAllButton(); // Actualizar el estado del botón
 
 // Agregar un evento al botón de eliminar todas las tareas
