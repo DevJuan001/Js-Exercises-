@@ -34,7 +34,7 @@ Image Search (Unsplash API) – Display images based on keywords.
 Lightbox Gallery – View images in a floating window.
 
 Currency Converter (using API) – Real-time currency conversion.
-
+  
 <h2>🔷 Advanced Level </h2>
 
 Memorama – Match cards.
