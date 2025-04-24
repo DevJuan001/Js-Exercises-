@@ -1,0 +1,11 @@
+.theme-btn{
+    display: flex;
+    justify-self: center;
+    align-content: center;
+}
+.light{
+    background-color: white;
+}
+.dark{
+    background-color: black;
+}
