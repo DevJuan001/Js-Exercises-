@@ -1,5 +1,5 @@
-const themeBtn = document.getElementById("theme-btn")
-const body = document.querySelectorAll("body")
+const themeBtn = Document.getElementById("theme-btn")
+const body = Document.querySelectorAll("body")
 
 themeBtn.addEventListener("click", ()=> {
   
@@ -8,3 +8,4 @@ themeBtn.addEventListener("click", ()=> {
         body.classlist.add(".light");
     }
 })
+console.log()
