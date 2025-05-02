@@ -9,9 +9,9 @@
   
 Counter – Buttons to increase, decrease, and reset a number.
 
-Timer or Digital Clock – Displays the current time live.
+Timer or Digital Clock – Displays the current time live. ✔️
 
-Theme Changer (light/dark mode) – Button that changes the site's theme.
+Theme Changer (light/dark mode) – Button that changes the site's theme. ✔️
 
 Random Color Generator – Changes the wallpaper with random colors. ✔️
 
@@ -47,7 +47,7 @@ Notes App with localStorage – Save notes that persist even after reloading.
 
 Secure Password Generator – Length, symbols, capitalization, etc.
 
-Pomodoro Clock – Productivity timer.
+Pomodoro Clock – Productivity timer. 
 
 Interactive Quiz (scored questions) – Measure how many answers the user gets right.
 </h2>
