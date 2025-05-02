@@ -1,11 +1,17 @@
-.theme-btn{
+body{
     display: flex;
-    justify-self: center;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Cascadia Code', monospace;
 }
-.light{
-    background-color: white;
+.mainBtn{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 .dark{
-    background-color: black;
+    background-color: #000;
 }

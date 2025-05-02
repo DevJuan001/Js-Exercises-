@@ -1,11 +1,13 @@
-const themeBtn = Document.getElementById("theme-btn")
-const body = Document.querySelectorAll("body")
+const mainBtn = document.querySelector(".mainBtn")
+const body = document.documentElement;
 
-themeBtn.addEventListener("click", ()=> {
-  
-    if (themeBtn.textContent = ""){
-        themeBtn.textContent = "Light"
-        body.classlist.add(".light");
+mainBtn.addEventListener("click", () =>{
+
+    if(mainBtn.textContent === "Light"){
+        mainBtn.textContent = "Dark"
+        body.classList.add("dark")
+    }else{
+        mainBtn.textContent = "Light"
+        body.classList.remove("dark")
     }
-})
-console.log()
+});
